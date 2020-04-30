@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Administrator login </title>
+	</head>
+	<body style="background-color:CadetBlue;"> 
+		<form action="admin" method="post">
+		<fieldset><legend>
+		<h1><center><font color="white"> Administrator Login </font></center> </h1></legend>
+		<font color="white" size="5">Username:   <input type="text" name="user"></font> <br>
+		<br>
+		<font color="white" size="5">Password:   <input type="password" name="pw"></font> <br>
+		<br>
+		<font color="white" size="5">Select:    <select name="op" >
+  		<option value="staffupload">Upload staff details</option>
+		<option value="courseupload">Upload course details</option>
+		<option value="studupload">Upload student details</option>
+		<option value="deletestud">Delete student records</option>
+  		</font>
+		</select>
+		<br>
+		<br>
+		<input type="submit" value="Submit"> <br>
+		</fieldset>
+		</form>
+	</body>
+</html>
